@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.top-bar {
+  background-color: black;
+}
+
+.top-bar nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.top-bar nav a {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+
+.logo p {
+  margin: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.my-logo {
+  width: 18%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu nav a:hover {
+  color: #b53b35 !important;
+}
+
+.menu nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 8px;
+  color: black;
+}
+
+.search-form button {
+  background-color: transparent;
+  border: none;
+}
+
+.search-form input[type="search"] {
+  border: none;
+}
+
+form.search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 0;
+}
+
+.banner {
+  background-image: url('https://i.dawn.com/large/2024/03/041407138c5bc57.jpg') !important;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner figure {
+  height: 460px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.8;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.arti-sec p {
+  font-size: 17px;
+}
+
+figcaption h1 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.my-form input {
+  padding: 12px;
+  background-color: #F7F7F7;
+  border: 1px solid #dbdbdb;
+  width: 20%;
+  margin: 15px 15px 15px 0px;
+}
+
+.my-form textarea {
+  padding: 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #dbdbdb;
+}
+
+input[type="submit"] {
+  background-color: #1f2283;
+  text-transform: uppercase;
+  color: white;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {
+  .my-logo {
+    width: 70%;
+  }
+
+  .my-form input {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}

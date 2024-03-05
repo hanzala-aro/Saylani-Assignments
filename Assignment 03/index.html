@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Assignment 03 - Saylani Admission Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="saylani-form">
+                    <div class="logo text-center mb-20">
+                        <img width="20%" src="images/logo.svg" alt="">
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mt-3 mb-3">
+                                <label for="courses">Select Your Course*</label><br>
+                                <select id="courses">
+                                    <option value="Graphic Design">Graphic Design</option>
+                                    <option value="2D Animation">2D Animation</option>
+                                    <option value="Web/Mobile Hybrid Development">Web/Mobile Hybrid Development</option>
+                                    <option value="Flutter App Development">Flutter App Development</option>
+                                    <option value="3D Animation">3D Animation</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mt-3 mb-3">
+                                <label for="courses">Select Batch*</label><br>
+                                <select id="courses">
+                                    <option value="Batch No 1">Batch No 1</option>
+                                    <option value="Batch No 2">Batch No 2</option>
+                                    <option value="Batch No 3">Batch No 3</option>
+                                    <option value="Batch No 4">Batch No 4</option>
+                                    <option value="Batch No 5">Batch No 5</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="text" name="yourname" placeholder="Your Name*" maxlength="10"><br>
+                                <span style="font-size: 10px;">Max Characters allowed: 18</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="dateofbirth">Date of Birth*</label><br>
+                                <input type="date" id="dateofbirth">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="age">Your Age*</label><br>
+                                <input type="number" id="age">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="">Gender *</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="Male">
+                                    <label class="form-check-label" for="Male">
+                                        Male
+                                    </label>
+                                    <br>
+                                    <input class="form-check-input" type="radio" name="gender" id="Female" checked>
+                                    <label class="form-check-label" for="Female">
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="CNIC/B-Form*" maxlength="13"><br>
+                                <span class="small-text">e.g 34545253424434</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="CNIC/B-Form*" maxlength="13"><br>
+                                <span class="small-text">e.g 34545253424434</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="Father Name*" maxlength="18" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="Father-CNIC/B-Form*" maxlength="13"
+                                    required><br>
+                                <span class="small-text">e.g 34545253424434</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="Permanent Address">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="Cell Number*" maxlength="11" required><br>
+                                <span class="small-text">e.g 03412629133</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="number" name="cnic" placeholder="Email*"><br>
+                                <span class="small-text">Provide a valid, accessible email that we will use to contact
+                                    you.</span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label>Last Qualification</label>
+                                <div class="row mb-3 mt-3">
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="None">
+                                        <label class="form-check-label" for="None">None</label>
+                                    </div>
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="Matric">
+                                        <label class="form-check-label" for="Matric">Matric</label>
+                                    </div>
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="Intermediate">
+                                        <label class="form-check-label" for="Intermediate">Intermediate</label>
+                                    </div>
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="Bachlor">
+                                        <label class="form-check-label" for="Bachlor">Bachlor</label>
+                                    </div>
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="Master">
+                                        <label class="form-check-label" for="Master">Master</label>
+                                    </div>
+                                    <div class="col"><input class="form-check-input" type="radio" name="qualification"
+                                            id="PHD">
+                                        <label class="form-check-label" for="PHD">PHD</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label>Upload your image (face font, without glasses and with a single-colored
+                                    background)
+                                    *</label><br>
+                                <input type="file" id="img" name="img"><br>
+                                <span class="small-text">Only png or jpg with size < 1mb is allowed </span>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label>Availability*</label><br>
+                                <label>Drag and Drop class timings mentioned below as per your availablity and
+                                    priority.</label>
+                                <div class="my-box mt-3">
+                                    <div class="col-2">
+                                        <p><strong>Priority # 1</strong></p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p><strong>Mon, Tues & Wed.</strong></p>
+                                        <p><strong>3pm to 5pm</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label>Declaration Undertaking*</label>
+                                <ol>
+                                    <li>I hereby, solemnly declare that the data and facts
+                                        mentioned herein are true and correct to the best of my knowledge. Further, I
+                                        will
+                                        abide by all the established and future regulations and policies of SWIT</li>
+                                    <li>I hereby accept the responsibilities of good conduct
+                                        and
+                                        guarantee that I will not be involved in any other activity, political or
+                                        ethical,
+                                        but learning during my stay in the program.</li>
+                                    <li>Defiance will render my admission canceled at any
+                                        point
+                                        in time.</li>
+                                    <li>Upon completion, of the course, I will complete the
+                                        required project by SWIT.</li>
+                                </ol>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="agree" id="agree">
+                                    <label class="form-check-label" for="agree">
+                                        I Agree with the above terms
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-3 mb-3">
+                                <input class="btn btn-success" type="submit" value="Submit">
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
